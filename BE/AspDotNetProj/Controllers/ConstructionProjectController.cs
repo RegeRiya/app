@@ -16,7 +16,7 @@ using AspDotNetProj.Models;
         }
 
         [HttpGet]
-        public ActionResult Get () 
+        public ActionResult Get ()
         {
             return Ok(_constructionService.GetProjects());
         }
